@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>NetflixPrime</title>
+    </head>
+    <body>
+        <div class ="slideshow-container">
+        <div id="topnav"><a href="#home"><b><i>হোম</i></b></a>ppp<a href="#offer"><b><i>অফার</i></b></a>ppp<a href="#contact"><b><i>যোগাযোগ</i></b></a> </div>
+        <div class ="mySlides fade">
+            <img src="https://www.dropbox.com/s/bgfdtpo42eegieu/0001-18199156226_20210312_194022_0000.png?dl=1" style="width:100%" />
+        </div>
+        <div class="mySlides fade">
+            <img src ="https://www.dropbox.com/s/z6og0ka8e0ztzi6/0001-18198014111_20210312_191317_0000.png?dl=1" style="width:100%"/>
+        </div>
+        <div class="mySlides fade">
+            <img src="https://www.dropbox.com/s/2kzfuss75ucuhzn/0001-18251431969_20210314_000220_0000.png?dl=1" style="width:100%"/>
+        </div>
+            <a class ="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class ="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+        <div style="text-align:center">
+                <span class ="dots" onclick="currentSlide(1)"></span>
+                <span class ="dots" onclick="currentSlide(2)"></span>
+                <span class ="dots" onclick="currentSlide(3)"></span>
+            </div>
+            <div id="home" class="article">
+            <h1 class ="heading"><b><i>হোম</i></b></h1><br /> <p><b><i>নেটফ্লিক্স-প্রাইমের অফিসিয়াল ওয়েবসাইটে আপনাকে স্বাগতম। বাংলাদেশে আমরাই প্রথম সবচেয়ে কম মূল্যে নেটফ্লিক্স এবং অ্যামাজনের আইডি সেল করে থাকি। আমরা মুলত ঐসকল মানুষের কথা মাথায় রেখে আমাদের অফার গুলো সাজিয়েছি যারা অনেক বেশি দাম দিয়ে সাবস্ক্রিপশন কিনতে না পারার কারণে এইসব ওটিটি প্লাটফর্ম গুলো ব্যাবহার করতে পারছেন না। অনেকেই নেটফ্লিক্স-অ্যামাজনে সিরিজ দেখতে পছন্দ করেন কিন্তু কম দামে আইডি কিনতে পারছেন না। বাইরে থেকে নেটফ্লিক্স বা অ্যামাজন কিনতে গেলে কমপক্ষে ৩০০-৫০০ টাকা খরচ করতে হয়। এটা অনেকের জন্যই ব্যায়বহুল। আর তাদের কথা চিন্তা করেই আমরা মাত্র ৬০ থেকে ১০০ টাকার মধ্যেই আমাদের সব অফার সাজিয়েছি। নিচের অফার ট্যাব থেকে আমাদের অফারগুলো দেখে নিন।</i></b></p>  
+            </div><br />
+            <div id="offer" class="article">
+                <h1 class="heading"><b><i>অফার</i></b></h1><br /> <h3><b><i>আমাদের অফার-সমুহ</i></b></h3><ul>
+            <li><b><i>নেটফ্লিক্স ৩০ দিন = ৬০ টাকা।</i></b></li>
+            <li><b><i>অ্যামাজন ৩০ দিন = ৭০ টাকা</i></b></li>
+            <li><b><i>নেটফ্লিক্স + অ্যামাজন কম্বো ৩০ দিন = ১০০ টাকা।</i></b></li>
+                </ul>
+            </div>
+            <br />
+            <div class ="article" id ="contact">
+                <h1 class="heading"><b><i>যোগাযোগ</i></b></h1>
+                <br />
+                <p><b><i>আমাদের সাথে যোগাযোগ করার জন্য এবং অফারগুলো নেয়ার জন্য আমাদের ফেইসবুক পেইজ থেকে আমাদেরকে মেসেজ করুন আমাদের ফেইসবুক পেইজটি ভিসিট করুন নিচের ফেইসবুক আইকনে ক্লিক করুন ধন্যবাদ।</i></b></p> <br />
+                 
+                 <div id ="icon"><a href="https://www.facebook.com/NetflixPrime-100232655491512/" target="_blank"><span>Click</span>
+                    <img alt="Facebook" src="https://www.dropbox.com/s/13lpisn3hxx4y00/facebook.png?dl=1" width="50px" height="50px"/><span>Here</span>
+                </a></div>
+                
+            </div>
+        <style>
+* {box-sizing:border-box ;}
+body {
+    background-color:black;
+}
+#icon {
+    text-align:center;
+}
+span {
+    position:relative;
+    top:-20px;
+    color:red;
+}
+a {
+    text-decoration:none;
+}
+.heading {
+    background-color:red;
+    border:2px solid red;
+    width:200px;
+    border-radius:10px;
+    text-align:center;
+    margin:auto;
+}
+#topnav {
+    background-color: #333;
+  overflow: hidden;
+background:rgba{0,0,0,0.5};
+position:absolute ;
+    top:0px;
+    right:3px;
+    display:block ;
+    z-index:2;
+}
+#topnav a {
+    color:red;
+    text-align: center;
+    }
+.article {
+    max-width:1000px;
+    position:relative ;
+    margin:auto ;
+    color:white;
+}
+.slideshow-container {
+    max-width:1000px;
+    position:relative ;
+    margin:auto ;
+}
+.mySlides {
+    display:none;
+}
+.prev, .next {
+    cursor:pointer ;
+    position:absolute ;
+    top:50%;
+    widht:auto ;
+    margin-top:-22px;
+    padding:16px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.6s ease;
+    border-radius:0 3px 3px 0;
+    user-select:none ;
+}
+.next{
+    right:0;
+    border-radius:3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color:red;
+}
+.dots {
+    cursor:pointer;
+    height:15px;
+    width:15px;
+    margin: 0 2px;
+    background-color:#bbb;
+    border-radius:50%;
+    display:inline-block ;
+    transition: background-color 0.6s ease;
+}
+.dots:hover {
+    background-color: red;
+}
+.active {
+    background-color:red;
+}
+.fade{
+    animation-name:fade;
+    animation-duration:1.5s;
+}
+@keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+</style>
+<script>
+var slideIndex =1;
+showSlides(slideIndex);
+function plusSlides(p){
+    showSlides(slideIndex += p);
+    clearInterval(t);
+}
+function currentSlide(c) {
+    showSlides(slideIndex = c);
+    clearInterval(t);
+}
+function autoSlide () {
+    showSlides(slideIndex +=1);
+}
+var t = setInterval(autoSlide, 3000);
+function showSlides (n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var y = document.getElementsByClassName("dots")
+    if(n > x.length) {
+        slideIndex = 1;
+    }
+    if(n < 1) {
+        slideIndex = x.length ;
+    }
+    for(i = 0; i < x.length; i++) {
+        x[i].style.display ="none";
+    }
+    for (i = 0; i < y.length; i++) {
+      y[i].className = y[i].className.replace(" active", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  y[slideIndex-1].className += " active";
+    
+}
+
+</script>
+    </body>
+</html>
